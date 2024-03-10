@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dedede;
+  margin: 0;
+  padding: 0;
+
+  
+}
+
+#app {
+  max-width: 480px;
+  min-height: 200vh;
+  margin: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+  text-align: center;
+}

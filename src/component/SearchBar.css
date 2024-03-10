@@ -1,0 +1,123 @@
+.isFavorite {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    left: 190px;
+    top: 0px;
+    margin-bottom: -10px;
+}
+
+.search-bar-container {
+    display: flex;
+    width: 400px;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #dfe1e5;
+    border-radius: 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 40px;
+}
+
+.search-input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+}
+
+.search-button {
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+.search-button:hover {
+    background-color: #e6e9ec;
+}
+
+.vertical-line {
+    height: 30px;
+    border-left: 2px solid #dfe1e5;
+    margin-right: 10px;
+}
+
+.cafes-result {
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.cafe-result {
+    margin-bottom: 10px;
+    flex: 0 0 calc(33.3333% - 20px);
+    box-sizing: border-box;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.last-cafe-result {
+    margin-bottom: 20px;
+}
+
+.last-grayLine {
+    position: relative;
+    width: 420px;
+    height: 0px;
+    left: 30px;
+    top: 150px;
+    margin-top: -60px;
+    border: 1px solid #d7d7d7;
+    margin-bottom: 90px;
+}
+
+.no-result {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.SearchResult {
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 60px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.gray-Line {
+    margin-top: 10px;
+    width: 420px;
+    height: 0px;
+    margin-left: 40px;
+    border: 1px solid #d7d7d7;
+}
+
+.NoSearchResult {
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.gray_Line {
+    position: relative;
+    width: 420px;
+    height: 0px;
+    left: 30px;
+    top: 150px;
+    margin-top: -60px;
+    border: 1px solid #d7d7d7;
+}
+
+
+.cafe-result:hover {
+    text-decoration-line: none;
+}
